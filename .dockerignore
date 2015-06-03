@@ -1,7 +1,17 @@
+# Git related
 .git*
+
+# Docker related
 .dockerignore
 Dockerfile
+
+# Make related
 Makefile
+.build
+.data
+.configure
+
+# Default folders added by default make config with runtime data
 backups/
 conf/
 data/
